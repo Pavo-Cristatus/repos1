@@ -45,11 +45,6 @@ echo $obj->revertPunctuationMarks($str);
 
 /*------------------test---------------------*/
 
-$x=1;
-$y=2;
-$y +=$x;
-echo $y;
-
 require_once 'PHPUnit/Framework.php';
 
 class ReverserTest extends PHPUnit_Framework_TestCase {
